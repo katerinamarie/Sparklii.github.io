@@ -6,19 +6,20 @@ html {
   }
 
 a, a:visited {
+opacity: .35;
   color: #FFFFFF;
   text-decoration: none;
   cursor: crosshair;
 }
 
 a:hover, a:active {
+opacity: .75;
   color: #FFFFFF;
   text-decoration: none;
   cursor: crosshair;
 }
 
 #blockcontent {
-opacity: .35;
 font-weight: bold;
 position: relative;
 display: block;
