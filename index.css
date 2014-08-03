@@ -8,6 +8,7 @@ html {
 #background {
   background: url('Media/landing-image.png') no-repeat center center fixed; 
   background-size: 100%;
+  display: none;
 }
 
 a, a:visited {

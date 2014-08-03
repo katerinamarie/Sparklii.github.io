@@ -27,10 +27,6 @@ if (screen.width < 600) {
 } 
 
 else {
-    $(function(){ 
-    $('#background').hide().delay(1000);
-  });
-
     $(function() {
     var BV = new $.BigVideo({useFlashForFirefox:false});
     BV.init();
@@ -38,7 +34,7 @@ else {
   });
 
   $(function(){ 
-    $('#blockcontent').hide().delay(12000).fadeIn(1000);
+    $('#blockcontent').hide().delay(12000).fadeIn(600);
   });
 }
 </script>
@@ -48,8 +44,7 @@ else {
   <a href="main.html">ENTER</a>
 </div>
 
-<div id="background">
-</div>
+<div id="background"></div>
 
 </body>
 </html>
