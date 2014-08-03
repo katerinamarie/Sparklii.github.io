@@ -20,7 +20,7 @@
 <body>
   <script type="text/javascript">
 
-if (screen.width < 1000) {
+if (screen.width < 600) {
   $(function(){ 
     $('#blockcontent').hide();
   });
@@ -28,7 +28,7 @@ if (screen.width < 1000) {
 
 else {
     $(function(){ 
-    $('#background').hide();
+    $('#background').hide().delay(1000);
   });
 
     $(function() {
@@ -38,7 +38,7 @@ else {
   });
 
   $(function(){ 
-    $('#blockcontent').hide().fadeIn();
+    $('#blockcontent').hide().delay(6000).fadeIn();
   });
 }
 </script>

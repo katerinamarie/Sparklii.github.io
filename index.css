@@ -6,7 +6,7 @@ html {
   }
 
 #background {
-  background: url(Media/landing-image.png) no-repeat center center fixed; 
+  background: url('Media/landing-image.png') no-repeat center center fixed; 
   background-size: 100%;
 }
 
