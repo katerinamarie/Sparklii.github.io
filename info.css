@@ -1,5 +1,5 @@
 html {
-  background: url(Media/background2.jpg) no-repeat center center fixed; 
+  background: url(/media/background2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -27,7 +27,7 @@ padding-top: 35px;
 
 #small-heart {
 
-  list-style-image: url('Media/heart_fill.png');
+  list-style-image: url('/media/heart_fill.png');
 }
 
 #nav{
@@ -79,7 +79,7 @@ ul {
   line-height: 1.2em;
   letter-spacing: .3em;
   list-style-type: none;
-  list-style-image: url('Media/heart_fill_big.png');
+  list-style-image: url('/media/heart_fill_big.png');
   padding:0; 
   margin: -5px;
   margin-left: 20px;
@@ -139,11 +139,11 @@ a:hover, a:active {
 
   @font-face {
     font-family: 'Coco';
-    src: url('Coco-Font-Family/coco-boldcondensed-webfont.eot');
-    src: url('Coco-Font-Family/coco-boldcondensed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Coco-Font-Family/coco-boldcondensed-webfont.woff') format('woff'),
-         url('Coco-Font-Family/coco-boldcondensed-webfont.ttf') format('truetype'),
-         url('Coco-Font-Family/coco-boldcondensed-webfont.svg#Coco') format('svg');
+    src: url('/Coco-Font-Family/coco-boldcondensed-webfont.eot');
+    src: url('/Coco-Font-Family/coco-boldcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/Coco-Font-Family/coco-boldcondensed-webfont.woff') format('woff'),
+         url('/Coco-Font-Family/coco-boldcondensed-webfont.ttf') format('truetype'),
+         url('/Coco-Font-Family/coco-boldcondensed-webfont.svg#Coco') format('svg');
     font-weight: normal;
     font-style: normal;
 
