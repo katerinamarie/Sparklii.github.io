@@ -19,8 +19,10 @@
 
 <body>
   <script type="text/javascript">
-if (screen.width < 500) {
-  
+if (screen.width < 600) {
+  $(function(){ 
+    $('#blockcontent').hide();
+  });
 } else {
     $(function() {
     var BV = new $.BigVideo({useFlashForFirefox:false});
@@ -34,11 +36,10 @@ if (screen.width < 500) {
 }
 </script>
 
-    <div id="blockcontent">
+<div id="blockcontent">
   <img src="Media/logo.png"></img>
   <a href="main.html">ENTER</a>
-  </div>
-
+</div>
 
 </body>
 </html>
