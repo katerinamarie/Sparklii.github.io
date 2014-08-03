@@ -21,9 +21,13 @@
   <script type="text/javascript">
 $(function() {
   var BV = new $.BigVideo({useFlashForFirefox:false});
-    
   BV.init();
-  BV.show('Media/A-Gilded-Cage.mp4', {altSource:'Media/A-Gilded-Cage.ogv', ambient: true});
+
+    if (Modernizr.touch) {
+      BV.show('Media/landing-image.png');
+  } else {
+  BV.show('Media/A-Gilded-Cage.mp4', {altSource:'Media/A-Gilded-Cage.ogv', ambient: false});
+}
 });
 
 $(function(){ 
