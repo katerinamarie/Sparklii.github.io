@@ -8,11 +8,13 @@ html {
 a, a:visited {
   color: #FFFFFF;
   text-decoration: none;
+  cursor: crosshair;
 }
 
 a:hover, a:active {
   color: #FFFFFF;
   text-decoration: none;
+  cursor: crosshair;
 }
 
 #blockcontent {
