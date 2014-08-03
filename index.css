@@ -18,7 +18,10 @@ a:hover, a:active {
 }
 
 #blockcontent {
-  opacity: .35;
+   opacity: .35;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
   font-weight: bold;
   position: relative;
   display: block;
