@@ -15,7 +15,6 @@
   <script type="text/javascript" src="bigvideo/js/jquery.imagesloaded.js"></script>
   <script type="text/javascript" src="bigvideo/js/video.js"></script>
   <script type="text/javascript" src="bigvideo/js/bigvideo.js"></script>
-  <script src="bigvideo/js/modernizr-2.5.3.min.js"></script>
 </head>
 
 <body>
@@ -23,11 +22,7 @@
 $(function() {
   var BV = new $.BigVideo({useFlashForFirefox:false});
   BV.init();
-    if (Modernizr.touch) {
-      BV.show('Media/landing-image.png');
-  } else {
     BV.show('Media/A-Gilded-Cage.mp4', {altSource:'Media/A-Gilded-Cage.ogv', ambient: true});
-  }
 });
 
 $(function(){ 
