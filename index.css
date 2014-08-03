@@ -55,7 +55,6 @@ a:hover, a:active {
   position: relative;
 }
 
-
 /* BigVideo Styles */
 #big-video-wrap{overflow:hidden;position:fixed;height:100%;width:100%;top:0;left:0;}
 #big-video-vid,#big-video-image{position:absolute;}
