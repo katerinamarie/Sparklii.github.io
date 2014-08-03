@@ -19,15 +19,21 @@
 
 <body>
   <script type="text/javascript">
-$(function() {
-  var BV = new $.BigVideo({useFlashForFirefox:false});
-  BV.init();
-    BV.show('Media/A-Gilded-Cage.mp4', {altSource:'Media/A-Gilded-Cage.ogv', ambient: true});
-});
 
-$(function(){ 
-  $('#blockcontent').hide().fadeIn(6000);
-});
+if (screen.width < 980) {
+  BV.show('landing-image.png');
+} else {
+    $(function() {
+    var BV = new $.BigVideo({useFlashForFirefox:false});
+    BV.init();
+      BV.show('Media/A-Gilded-Cage.mp4', {altSource:'Media/A-Gilded-Cage.ogv', ambient: true});
+  });
+
+  $(function(){ 
+    $('#blockcontent').hide().fadeIn(6000);
+  });
+}
+
 </script>
 
     <div id="blockcontent">
