@@ -3,6 +3,11 @@ html {
   letter-spacing: 1px;
   font-size: 1.5em;
   cursor: crosshair;
+  background: url(Media/landing-image.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
 
 a, a:visited {
