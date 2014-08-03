@@ -3,9 +3,12 @@ html {
   letter-spacing: 1px;
   font-size: 1.5em;
   cursor: crosshair;
+  }
+
+#background {
   background: url(Media/landing-image.png) no-repeat center center fixed; 
   background-size: 100%;
-  }
+}
 
 a, a:visited {
   color: #FFFFFF;

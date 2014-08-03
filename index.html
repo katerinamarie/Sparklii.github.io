@@ -19,11 +19,18 @@
 
 <body>
   <script type="text/javascript">
+  
 if (screen.width < 600) {
   $(function(){ 
     $('#blockcontent').hide();
   });
-} else {
+} 
+
+else {
+    $(function(){ 
+    $('#background').hide();
+  });
+
     $(function() {
     var BV = new $.BigVideo({useFlashForFirefox:false});
     BV.init();
@@ -39,6 +46,9 @@ if (screen.width < 600) {
 <div id="blockcontent">
   <img src="Media/logo.png"></img>
   <a href="main.html">ENTER</a>
+</div>
+
+<div id="background">
 </div>
 
 </body>
