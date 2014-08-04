@@ -63,14 +63,22 @@ a:hover, a:active {
     color: #000000;
   }
 
-    #logo a:active, #logo a:hover {
+  #logo a:active, #logo a:hover {
     text-decoration: none;
     color: #000000;
   }
 
   #logo img {
-    margin: auto;
-    height: 70%;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding: 5px;
+    width: 50%;
+  }
+
+  #name {
+    margin-left: 50%;
+    margin-right: 50%;
+    padding: 5px;
   }
 }
 
