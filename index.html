@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="description" content="Katerina Marie is a professional model, cosplayer, and front-end web developer">
+  <meta name="description" content="Katerina Marie is a professional model, cosplayer, and front-end web developer.">
   <meta name="keywords" content="Katerina Marie, katerina, marie, model, modeling, modelling, cosplayer, web design, web development, sexy, lingerie, costume, anime, fashion, beauty, front-end">
 
   <title>Katerina Marie Official - Model, Cosplayer, Web Developer</title>
@@ -23,11 +23,19 @@
 
 if (screen.width < 600) {
   $(function(){ 
-    $('#blockcontent').show();
+    $('#blockcontent').hide();
+  });
+
+    $(function(){ 
+    $('#logo').show().fadeIn(500);
   });
 } 
 
 else {
+  $(function(){ 
+    $('#logo').hide();
+  });
+
     $(function() {
     var BV = new $.BigVideo({useFlashForFirefox:false});
     BV.init();
@@ -43,6 +51,11 @@ else {
 <div id="blockcontent">
   <img src="Media/logo.png"></img>
   <a href="main.html">ENTER</a>
+</div>
+
+<div id="logo">
+  <img src="Media/logo-big.svg"></img>
+  <a href="main.html">KATERINA MARIE</a>
 </div>
 
 </body>
