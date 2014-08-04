@@ -77,7 +77,8 @@ a:hover, a:active {
   }
 
   #name {
-    width: 70%;
+    width: 100%;
+    display: inline;
   }
 }
 
