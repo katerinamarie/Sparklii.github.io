@@ -50,6 +50,16 @@ a:hover, a:active {
   position: relative;
 }
 
+@media only screen and (max-width: 600px) {
+  html {
+    background: url(Media/landing-image.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
 /* BigVideo Styles */
 #big-video-wrap{overflow:hidden;position:fixed;height:100%;width:100%;top:0;left:0;}
 #big-video-vid,#big-video-image{position:absolute;}
