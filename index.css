@@ -69,8 +69,8 @@ a:hover, a:active {
   }
 
   #logo img {
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 5px;
@@ -78,9 +78,10 @@ a:hover, a:active {
   }
 
   #name {
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 5px;
+    width: 80%;
   }
 }
 
