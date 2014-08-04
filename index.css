@@ -54,7 +54,22 @@ a:hover, a:active {
   html {
     font-family: "Raleway";
     letter-spacing: 2px;
+    color: #000000;
+  }
 
+  #logo a, #logo a:visited {
+    text-decoration: none;
+    color: #000000;
+  }
+
+    #logo a:active, #logo a:hover {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  #logo img {
+    width: 100%;
+    margin: 50%;
   }
 }
 
