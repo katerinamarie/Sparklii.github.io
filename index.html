@@ -23,12 +23,7 @@
 
 if (screen.width < 600) {
   $(function(){ 
-    $('#blockcontent').hide();
-  });
-
-    $(".page").click(function(){
-       window.location=$(this).find("a").attr("href"); 
-       return false;
+    $('#blockcontent').show();
   });
 } 
 
@@ -44,10 +39,6 @@ else {
   });
 }
 </script>
-
-<div class="page">
-  <a href="main.html"> </a>
-</div>
 
 <div id="blockcontent">
   <img src="Media/logo.png"></img>
