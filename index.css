@@ -78,6 +78,8 @@ a:hover, a:active {
 
   #name {
     width: 100%;
+    margin-right: 5%;
+    margin-left: 55%;
     display: inline;
   }
 }
