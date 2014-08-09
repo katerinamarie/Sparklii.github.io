@@ -29,11 +29,19 @@ if (screen.width < 600) {
     $(function(){ 
     $('#logo').show();
   });
+
+    $(function(){ 
+    $('.video-container').show();
+  });
 } 
 
 else {
   $(function(){ 
     $('#logo').hide();
+  });
+
+    $(function(){ 
+    $('.video-container').hide();
   });
 
     $(function() {
@@ -57,6 +65,10 @@ else {
   <a href="main.html">
   <img src="Media/logo-big.svg"></img>
   <div id="name">KATERINA MARIE</div></a>
+</div>
+
+<div class="video-container">
+  <iframe src="//www.youtube.com/embed/i4V4vYl_w0s?rel=0" width="800" height="450" frameborder="0"></iframe>
 </div>
 
 </body>
