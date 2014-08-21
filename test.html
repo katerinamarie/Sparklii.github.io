@@ -1,0 +1,35 @@
+<html>
+<body>
+
+<form id="contact">
+
+  <label for="contact-name">Name</label>
+  <input id="contact-name" name="name" type="text" class="form-control" placeholder=" ">
+
+  <label for="contact-email">Email</label>
+  <input id="contact-email" name="email" type="email" class="form-control" placeholder=" ">
+ 
+  <label for="contact-body">Message</label>
+  <textarea id="contact-body" name="body" type="text" class="form-control" placeholder=" " rows="3"></textarea>
+ 
+  <button type="submit" class="button">Submit 
+  </button>
+  
+  <div id="result">
+  </div>
+</form>
+
+  <script  src="https://s3.amazonaws.com/fireform/fireform.min.js"></script>
+      <script >
+        options={
+          emailNotification:"info@katerinadoll.com",
+              callback:function(err, val) { 
+      $('#contact-name').val('');
+      $('#contact-email').val('');
+      $('#contact-body').val(''); 
+      $('#result').text('Message sent! <3'); }
+        }
+        new Fireform('#contact', 'http://fireform.org/list/211/Contact', options);
+      </script>
+</body>
+</html>
