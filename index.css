@@ -108,10 +108,15 @@ a:hover, a:active {
     display: inline;
   }
 
-  #enter {
+  #enter {  
+    font-weight: bold;
+    position: relative;
+    display: block;
     color: #000000;
     width: 50%;
     margin: 0 auto;
+    height: 200px;
+    font-size: 4em;
   }
 }
 
