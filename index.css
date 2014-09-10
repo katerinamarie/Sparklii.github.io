@@ -116,6 +116,7 @@ a:hover, a:active {
     margin: 0 auto;
     height: 200px;
     font-size: 4em;
+    top: 1000px;
   }
 }
 
