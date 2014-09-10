@@ -96,11 +96,14 @@ a:hover, a:active {
     display: inline;
   }
 
-  #link {  
+#enter {
     margin-top: 250px;
     margin-bottom: 20px;
     margin-right: 100px;
     margin-left: 100px;
+}
+
+  #link {  
     display: inline;
     color: #000000;
     text-align: center;
