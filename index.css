@@ -110,7 +110,7 @@ a:hover, a:active {
 
   #enter {  
     font-weight: bold;
-    position: relative;
+    position: absolute;
     color: #000000;
     width: 50%;
     margin: 0 auto;
