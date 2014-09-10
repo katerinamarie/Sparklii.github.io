@@ -1,4 +1,10 @@
-label {
+#result {
+font-family: "Raleway";
+color: black;
+z-index: 10;
+
+  }
+  label {
 font-family: "Raleway";
 font-size: 20px;
 font-weight: bold;
