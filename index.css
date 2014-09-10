@@ -105,6 +105,9 @@ a:hover, a:active {
     margin-left: 20px;
     float: right;
     display: inline;
+    background-color: #000000;
+    width: 100px;
+    height: 100px;
   }
 }
 
