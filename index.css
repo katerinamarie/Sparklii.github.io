@@ -83,7 +83,6 @@ a:hover, a:active {
 
   #logo img {
     margin-top: 25px;
-    margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 105px;
     width: 100px;
@@ -91,7 +90,6 @@ a:hover, a:active {
 
   #name {
     margin-top: 40px;
-    margin-bottom: 20px;
     margin-right: 100px;
     margin-left: 20px;
     float: right;
@@ -99,7 +97,7 @@ a:hover, a:active {
   }
 
   #link {  
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 20px;
     margin-right: 100px;
     margin-left: 100px;
