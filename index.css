@@ -95,7 +95,7 @@ a:hover, a:active {
     margin-top: 25px;
     margin-bottom: 20px;
     margin-right: 20px;
-    margin-left: 90px;
+    margin-left: 105px;
     width: 100px;
   }
 
@@ -106,6 +106,12 @@ a:hover, a:active {
     margin-left: 20px;
     float: right;
     display: inline;
+  }
+
+  #enter {
+    color: #000000;
+    width: 50%;
+    margin: 0 auto;
   }
 }
 
