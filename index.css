@@ -99,12 +99,13 @@ a:hover, a:active {
   }
 
   #link {  
-    margin-top: 1000px;
+    margin-top: 700px;
     margin-bottom: 20px;
     margin-right: 100px;
     margin-left: 20px;
     float: right;
     display: inline;
+    color: #000000;
     background-color: #000000;
     width: 100px;
     height: 100px;
