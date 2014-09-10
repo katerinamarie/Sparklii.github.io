@@ -93,10 +93,11 @@ a:hover, a:active {
 
   #logo img {
     margin: 20px;
-    width: 30%;
+    width: 150px;
   }
 
   #name {
+    margin: 20px;
     float: right;
     display: inline;
   }
