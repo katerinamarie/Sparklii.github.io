@@ -99,14 +99,12 @@ a:hover, a:active {
   }
 
   #enter {  
-    font-family: "Raleway";
-    font-weight: bold;
+    margin-top: 1000px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 20px;
+    float: right;
     display: inline;
-    font-size: 4em;
-    color: black;
-    height: 200px;
-    top: 1000px;
-    z-index: 999;
   }
 }
 
