@@ -92,7 +92,7 @@ a:hover, a:active {
   }
 
   #logo img {
-    left: 30px;
+    left: 130px;
     margin: 20px;
     width: 150px;
   }
@@ -102,7 +102,7 @@ a:hover, a:active {
     margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
-    right: 30px;
+    right: 130px;
     float: right;
     display: inline;
   }
