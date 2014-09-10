@@ -99,7 +99,7 @@ a:hover, a:active {
   }
 
   #link {  
-    margin-top: 700px;
+    margin-top: 100px;
     margin-bottom: 20px;
     margin-right: 100px;
     margin-left: 20px;
@@ -107,7 +107,8 @@ a:hover, a:active {
     display: inline;
     color: #000000;
     background-color: #000000;
-    width: 100%;
+    text-align: center;
+    width: 300px;
     height: 100px;
     z-index: 99999;
   }
