@@ -81,16 +81,6 @@ a:hover, a:active {
     font-size: 4em;
   }
 
-  #logo a, #logo a:visited {
-    text-decoration: none;
-    color: #000000;
-  }
-
-  #logo a:active, #logo a:hover {
-    text-decoration: none;
-    color: #000000;
-  }
-
   #logo img {
     margin-top: 25px;
     margin-bottom: 20px;
@@ -109,11 +99,10 @@ a:hover, a:active {
   }
 
   #enter {  
+    font-family: "Raleway";
     font-weight: bold;
     position: absolute;
-    background-color: #000000;
     color: #000000;
-    width: 50%;
     margin: 0 auto;
     height: 200px;
     font-size: 4em;
