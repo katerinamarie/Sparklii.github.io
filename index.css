@@ -101,6 +101,8 @@ a:hover, a:active {
   #enter {  
     font-family: "Raleway";
     font-weight: bold;
+    position: relative;
+    display: inline;
     font-size: 4em;
     color: pink;
     height: 200px;
