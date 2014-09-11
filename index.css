@@ -100,8 +100,7 @@ a:hover, a:active {
     font-size: .75em;
     margin-top: 150px;
     margin-bottom: 20px;
-    left: 50%;
-    right: 50%;
+    margin-left: 45%;
 }
 
   #link {  
