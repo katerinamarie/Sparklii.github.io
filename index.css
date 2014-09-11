@@ -116,17 +116,8 @@ a:hover, a:active {
     -moz-border-radius: 4px;
     border-radius: 4px;
     padding: 20px;
+  text-decoration: none;
   }
-
-  a, a:visited {
-  color: #000000;
-  text-decoration: none;
-}
-
-a:hover, a:active {
-  color: #000000;
-  text-decoration: none;
-}
 }
 
 /* BigVideo Styles */
