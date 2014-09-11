@@ -103,7 +103,7 @@ a:hover, a:active {
     margin-left: 40%;
 }
 
-  #link, #link:visited, #link:active {  
+  #link {  
     display: inline;
     color: #000000;
     text-align: center;
