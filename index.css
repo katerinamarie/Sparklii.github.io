@@ -103,7 +103,7 @@ a:hover, a:active {
     margin-left: 40%;
 }
 
-  #link {  
+  #link, #link:visited, #link:active {  
     display: inline;
     color: #000000;
     text-align: center;
@@ -121,13 +121,11 @@ a:hover, a:active {
   a, a:visited {
   color: #000000;
   text-decoration: none;
-  cursor: crosshair;
 }
 
 a:hover, a:active {
   color: #000000;
   text-decoration: none;
-  cursor: crosshair;
 }
 }
 
