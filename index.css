@@ -96,11 +96,11 @@ a:hover, a:active {
     display: inline;
   }
 
-#enter {
+  #enter {
     margin-top: 150px;
     margin-bottom: 20px;
-    margin-right: 35%;
-    margin-left: 35%;
+    margin-right: 40%;
+    margin-left: 40%;
 }
 
   #link {  
