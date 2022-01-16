@@ -14,6 +14,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="icon" href="images/favissconx.png">
 	</head>
 	<body class="is-loading">
 
@@ -23,7 +24,7 @@
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span class="avatar"><img src="images/2G4A6121.jpg" alt="" /></span>
+							<span class="avatar"><img src="images/DSC_5256.jpg" alt="" /></span>
 							<h1>Katerina Marie</h1>
 						</header>
 						
