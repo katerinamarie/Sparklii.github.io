@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
 
 /*
 	Identity by HTML5 UP
@@ -86,7 +86,7 @@
 	body {
 		height: 100%;
 		background-color: #ffffff;
-		background-image: url("images/overlay.png"), url("../../images/Katerina_pcm02619.jpg");
+		background-image: url("images/overlay.png"), url("../../images/2G4A6121-web.jpg");
 		
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
@@ -125,9 +125,9 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #414f57;
+		color: white;
 		font-family: 'Raleway', sans-serif;
-		font-size: 14pt;
+		font-size: 18pt;
 		font-weight: 300;
 		line-height: 2;
 		letter-spacing: 0.2em;
@@ -168,11 +168,11 @@
 		}
 
 		a:hover {
-			color: #ff7496;
+			color: #DCD0FF;
 		}
 
 	strong, b {
-		color: #313f47;
+		color: white;
 	}
 
 	em, i {
@@ -184,7 +184,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #313f47;
+		color: white;
 		line-height: 1.5;
 		margin: 0 0 0.75em 0;
 	}
@@ -201,7 +201,7 @@
 	}
 
 	h2 {
-		font-size: 1.25em;
+		font-size: 1.4em;
 	}
 
 	h3 {
@@ -243,7 +243,7 @@
 	hr {
 		border: 0;
 		border-bottom: solid 1px #c8cccf;
-		margin: 3em 0;
+		margin: 1.5em 0;
 	}
 
 /* Form */
@@ -700,14 +700,15 @@
 /* Main */
 
 	#main {
+		border: 1px solid white;
 		position: relative;
 		max-width: 100%;
 		min-width: 27em;
-		padding: 4.5em 3em 3em 3em ;
-		background: #ffffff;
+		padding: 2em 3em 2em 3em ;
+		/* background: #ffffff;
+		opacity: 0.95; */
 		border-radius: 4px;
 		cursor: default;
-		opacity: 0.95;
 		text-align: center;
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
@@ -726,18 +727,18 @@
 		#main .avatar {
 			position: relative;
 			display: block;
-			margin-bottom: 1.5em;
+			margin-bottom: 0.5em;
 		}
 
 			#main .avatar img {
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em #ffffff;
+				/* box-shadow: 0 0 0 1.5em #ffffff; */
 			}
 
 			#main .avatar:before {
-				content: '';
+				/* content: ''; */
 				display: block;
 				position: absolute;
 				top: 50%;
